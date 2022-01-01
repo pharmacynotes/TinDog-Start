@@ -106,7 +106,8 @@ p {
 }
 
 .testimonial-text {
-  font-family: 'Montserrat-bold';
+  font-family: 'Montserrat';
+  font-weight: bold;
 }
 
 /* press */
@@ -126,4 +127,53 @@ p {
 
 #pricing {
   padding: 100px;
+}
+
+@media (max-width:1028px) {
+  .image {
+    position: static;
+    margin-bottom: 0;
+    width: 70%;
+    transform: rotate(0deg);
+  }
+  #features {
+    position: static;
+  }
+
+}
+@media (max-width:760px) {
+  h1 {
+    text-align: center;
+    font-family: 'Montserrat, sans-serif';
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 900;
+  }
+  .image {
+    width: 50%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 30px 0 40px 0;
+}
+
+.cta-h3 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 50px;
+}
+
+.cta-btn {
+  margin: 0 20px;
+}
+
+.cta-icon {
+  margin: 10px;
 }

@@ -13,10 +13,19 @@ p {
   color: #8f8f8f;
 }
 
-/****************************Title*******************************/
-#title {
+/**************************** Sections *******************************/
+
+.colored-section {
   background-color: #ff4c68;
   color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/****************************Title*******************************/
+#title {
   text-align: left;
 }
 
@@ -93,7 +102,6 @@ p {
 /************************** Testimonials *****************************/
 #testimonials {
   background-color: #EF8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -114,7 +122,6 @@ p {
 /**************************** Press *******************************/
 #press {
   background-color: #EF8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -162,9 +169,7 @@ p {
 }
 
 #cta {
-  background-color: #ff4c68;
   padding: 30px 0 40px 0;
-  color: #fff;
 }
 
 .cta-h3 {
